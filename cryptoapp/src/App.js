@@ -13,11 +13,11 @@ const App = () => {
         <Layout>
             <div className="routes">
               <Routes>
-                <Route exakt path="/" element={<Homepage/>}/>
-                <Route exakt path="/exchanges" element={<Exchanges />}/>
-                <Route exakt path="/cryptocurrencies" element={<Cryptocurrencies />}/>
-                <Route exakt path="/crypto/:coinId" element={<CryptoDetails />}/>
-                <Route exakt path="/news" element={<News />}/>
+                <Route path="/" element={<Homepage/>}/>
+                <Route path="/exchanges" element={<Exchanges />}/>
+                <Route path="/cryptocurrencies" element={<Cryptocurrencies />}/>
+                <Route path="/crypto/:coinId" element={<CryptoDetails />}/>
+                <Route path="/news" element={<News />}/>
               </Routes>
             </div>
         </Layout>
