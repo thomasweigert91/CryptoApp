@@ -189,7 +189,7 @@ const CryptoDetails = () => {
         {/* Coin Links */}
         <Col className="coin-links">
           <Title level={3} className="coin-details-heading">
-            {CryptoDetails.name} Links
+            {cryptoDetails.name} Links
           </Title>
           {cryptoDetails.links.map((link) => (
             <Row className="coin-link" key={link.name}>
